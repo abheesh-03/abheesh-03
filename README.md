@@ -18,17 +18,17 @@ Backend and Applied AI Engineer building workflow automation platforms, agentic 
 
 ## Featured Projects
 
-### [Financial Data MCP Server](https://github.com/abheesh-03/financial-data-mcp-server)
+### [Financial Data MCP Server]
 MCP server exposing three portfolio reconciliation tools — `get_breaks`, `classify_break`, and `resolve_break` — enabling LangChain agents to detect and resolve position mismatches across custodian and book-of-record feeds. Includes a human-in-the-loop FastAPI approval workflow with audit logging and a LangSmith eval framework achieving **89% classification accuracy** across 250 labeled break scenarios. GitHub Actions CI gate blocks deploys on accuracy regression below 85%.
 
 ---
 
-### [Workflow Automation Backend Platform](https://github.com/abheesh-03/workflow-automation-backend)
+### [Workflow Automation Backend Platform]
 Python/FastAPI backend supporting approval workflows, operational tracking, and business process automation with JWT auth, rate limiting, and PostgreSQL audit logging. Containerized on AWS with Kubernetes, GitHub Actions CI/CD, Prometheus, and Grafana dashboards for production observability.
 
 ---
 
-### [Asset Locator Platform](https://github.com/abheesh-03/asset-locator-platform)
+### [Asset Locator Platform]
 Java/Spring Boot centralized asset management platform built at MasTec for **200+ active field technicians**. Replaced manual tracking with inventory visibility, assignment workflows, and automated reporting. Resolved a critical N+1 query bottleneck using Redis caching and composite indexes — reducing p95 response time from **5–6s to under 400ms**.
 
 ---
