@@ -1,10 +1,10 @@
 # Hi, I'm Sai Abheesh Annaiah 👋
 
-**Software Engineer | Android & Wear OS | Backend Systems | Applied AI**
+**Software Engineer | Backend Systems | Android & Wear OS | Applied AI | Data Science & ML**
 
-I’m a software engineer with **3+ years of experience** across backend engineering, mobile systems, and applied AI. I started my career at **MasTec Communications**, working on telecom software across Java/Spring Boot backend systems and Android/mobile field applications. I later completed my **M.S. in Data Science at the University at Buffalo** and worked at **Anthem Nations** on Harmoney, a fintech payments platform with backend workflows and AI-assisted features.
+I’m a software engineer with **3+ years of experience** across backend engineering, mobile systems, applied AI, and data-driven applications. I started my career at **MasTec Communications**, where I worked on production telecom software spanning Java/Spring Boot backend systems and Android/mobile field applications. I later completed my **M.S. in Data Science at the University at Buffalo** and worked at **Anthem Nations** on Harmoney, a fintech payments platform with backend workflows and AI-assisted features.
 
-Today, I’m especially interested in building products where **mobile, backend, and AI come together** — with a strong focus on Android, Wear OS, reliability, performance, and practical AI integration.
+I enjoy building systems that combine **software engineering, AI/ML, data, cloud, and product thinking** — from reliable backend services and mobile apps to AI workflows, observability platforms, and data pipelines.
 
 ---
 
@@ -32,6 +32,18 @@ Wear OS AI assistant built around a **local-first / cloud-when-needed** architec
 
 ---
 
+### Autonomous Production Reliability Platform *(private repository)*
+A production-style **Agentic SRE / reliability engineering platform** for detecting, investigating, and safely managing incidents across a distributed application.
+
+- Multi-service system with Java, Python, Go, Node.js, PostgreSQL, and Docker Compose
+- OpenTelemetry-based distributed tracing with **Prometheus, Grafana, Loki, and Tempo**
+- Real alert lifecycle through Prometheus Alertmanager into a FastAPI control plane
+- Durable incident state, audit history, and controlled failure-injection scenarios
+- Read-only AI incident investigator that gathers bounded evidence from metrics, logs, traces, and incident history
+- Strong safety boundaries: no automated remediation in the current phase, no fabricated evidence, and explicit human/operator lifecycle controls
+
+---
+
 ### [BugPredictor](https://github.com/abheesh-03/BugPredictor)
 AI-powered bug detection platform for VS Code and web.
 
@@ -43,19 +55,8 @@ AI-powered bug detection platform for VS Code and web.
 
 ---
 
-### [SkyTracker PRO](https://github.com/abheesh-03/Flight-Tracker)
-Full-stack flight tracking application built with **Next.js, React, TypeScript, Leaflet, aviation APIs, and AWS Amplify**.
-
-- Live flight status and route visualization
-- Multi-provider API integration and normalization
-- Airport-local time handling and weather context
-- Rule-based ETA / timing assistance
-- AWS-hosted deployment
-
----
-
-### [NYC Taxi Demand Project](https://github.com/abheesh-03/nyc-taxi-project)
-Data engineering and forecasting project built around NYC taxi demand using **AWS, Python, SQL, PostgreSQL, and time-series modeling**.
+### [Citi Bike Ride Prediction](https://github.com/abheesh-03/citibike)
+Data science project focused on **Citi Bike ride prediction and mobility analytics**.
 
 ---
 
@@ -64,55 +65,82 @@ Data engineering and forecasting project built around NYC taxi demand using **AW
 ### MasTec Communications Group
 **Software Engineer Intern → Software Engineer 1**
 
-Worked across telecom applications including backend systems and Android/mobile field workflows.
+Worked across several telecom systems, including backend platforms and Android/mobile field applications.
 
-- Java / Spring Boot / REST APIs / PostgreSQL
-- Android/mobile integration, synchronization, validation, and debugging
-- Performance tuning, Redis caching, and SQL optimization
-- Jenkins, Maven, Docker, Git, and CI/CD
-- Python and SQL automation for operational workflows
+**Asset Locator**
+- Built and supported Java/Spring Boot and PostgreSQL-backed functionality for tracking specialized telecom equipment and availability
+- Helped replace spreadsheet-heavy/manual tracking with centralized application workflows used by **200+ users**
+
+**QWEST**
+- Worked on Android/mobile field workflows for telecom operations
+- Supported mobile-to-backend integration, REST/JSON data flow, synchronization, validation, and Android Studio debugging
+- Contributed Kotlin changes for Android-specific flows such as **Activity/Intent handling and runtime permissions**
+
+**AccuV**
+- Worked around Android/mobile deployment workflows connecting field activity with backend services and operational data
+- Supported API integration, synchronization, validation, and debugging across the mobile-client/service/database path
+
+**Key engineering impact**
+- Reduced a heavily used production workflow from roughly **5–6 seconds p95 to under 400 ms** through query/index optimization, service-layer improvements, and Redis caching
+- Reduced deployment time from roughly **2 hours to about 25 minutes** through Jenkins, Maven, Docker, Git, automated testing, and deployment validation
+- Improved retry reliability by addressing duplicate synchronization with idempotent processing, state tracking, transactions, and database-level safeguards
+- Reduced recurring validation defects by approximately **30%** through JUnit-based validation testing during the earlier internship stage
+- Built Python and SQL automation for validation, data cleanup, duplicate detection, reporting, and operational workflows
 
 ### Anthem Nations
 **Applied AI Engineer Intern**
 
 Worked on **Harmoney**, a fintech payments platform.
 
-- Python / FastAPI / PostgreSQL backend workflows
-- Payment validation, approval states, and audit/history flows
-- React / TypeScript workflow interfaces
-- Claude-based structured AI assistance
-- Human-in-the-loop AI and retrieval-backed workflows
+- Built Python/FastAPI/PostgreSQL backend workflows around payments, validation, approvals, reconciliation, and operational state
+- Developed React/TypeScript workflow interfaces and review flows
+- Integrated Claude-based structured AI assistance with validation and human-in-the-loop review
+- Worked with retrieval-backed AI workflows, pgvector, audit/history flows, and production troubleshooting
+- Helped reduce manual review effort and improve workflow visibility through better validation, review states, and operational views
+
+---
+
+## 🧠 Data Science & AI/ML
+
+My background combines software engineering with graduate-level data science and hands-on AI/ML work.
+
+**Data Science / ML**
+- Python, pandas, NumPy, SQL
+- scikit-learn, LightGBM
+- Time-series analysis and forecasting
+- Feature engineering and model evaluation
+- Data cleaning, validation, transformation, and exploratory analysis
+- PySpark and Databricks fundamentals
+
+**Applied AI / LLM Engineering**
+- Claude, OpenAI
+- RAG, embeddings, pgvector, vector similarity search
+- Structured outputs and prompt/context design
+- Human-in-the-loop AI workflows
+- LLM evaluation and regression testing
+- Retrieval grounding and AI-assisted developer tooling
 
 ---
 
 ## 🧰 Tech Stack
 
-### Mobile
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
-![Wear OS](https://img.shields.io/badge/Wear_OS-4285F4?style=for-the-badge&logo=wearos&logoColor=white)
+### Languages
+**Java · Kotlin · Python · TypeScript · JavaScript · SQL · C++ · Bash**
 
-**Kotlin · Jetpack Compose · ViewModel · StateFlow · Coroutines · Room · Retrofit · OkHttp · Wear OS**
+### Mobile
+**Android · Kotlin · Jetpack Compose · Wear OS · ViewModel · StateFlow · Coroutines · Room · Retrofit · OkHttp**
 
 ### Backend
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+**Spring Boot · FastAPI · REST APIs · PostgreSQL · Redis · JPA/Hibernate · Pydantic**
 
-**Java · Spring Boot · Python · FastAPI · REST APIs · PostgreSQL · Redis · SQL**
+### AI / ML
+**Claude · OpenAI · RAG · pgvector · Embeddings · LightGBM · scikit-learn · AI Evaluation · Human-in-the-Loop**
 
-### AI
-**Claude · OpenAI · RAG · pgvector · Structured Outputs · Human-in-the-Loop Workflows · AI Evaluation**
+### Data
+**pandas · NumPy · SQL · PySpark · Databricks · Data Pipelines · Feature Engineering · Time Series**
 
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-
-**AWS · Docker · GitHub Actions · Jenkins · Git · Linux · CI/CD**
+### Cloud / DevOps / Reliability
+**AWS · Docker · GitHub Actions · Jenkins · Git · Linux · CI/CD · OpenTelemetry · Prometheus · Grafana · Loki · Tempo**
 
 ---
 
@@ -128,11 +156,11 @@ B.E. Computer Science
 
 ## 🎯 Current Focus
 
-I’m currently focused on roles across:
+I’m interested in opportunities across:
 
-**Software Engineering · Android / Mobile Engineering · Backend Engineering · Applied AI / AI Engineering**
+**Software Engineering · Backend Engineering · Mobile / Android · Applied AI / AI Engineering · Data Science / ML · Cloud & Reliability Engineering**
 
-I enjoy working on systems where product behavior, mobile constraints, backend reliability, and AI all meet.
+I’m especially drawn to work where I can combine strong software fundamentals with AI, data, distributed systems, and real product problems.
 
 ---
 
