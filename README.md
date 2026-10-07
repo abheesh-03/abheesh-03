@@ -32,7 +32,7 @@ Wear OS AI assistant built around a **local-first / cloud-when-needed** architec
 
 ---
 
-### Autonomous Production Reliability Platform *(private repository)*
+### [Autonomous Production Reliability Platform](https://github.com/abheesh-03/autonomous-reliability-platform) *(private, ongoing)*
 A production-style **Agentic SRE / reliability engineering platform** for detecting, investigating, and safely managing incidents across a distributed application.
 
 - Multi-service system with Java, Python, Go, Node.js, PostgreSQL, and Docker Compose
