@@ -1,106 +1,143 @@
-# Sai Abheesh Annaiah
+# Hi, I'm Sai Abheesh Annaiah 👋
 
-Backend and Applied AI Engineer building workflow automation platforms, agentic AI systems, and production backend services using Python, FastAPI, PostgreSQL, AWS, and Docker.
+**Software Engineer | Android & Wear OS | Backend Systems | Applied AI**
 
-**UB MS Data Science '25 · GPA 3.5 · AWS Certified Data Engineer & Solutions Architect**
+I’m a software engineer with **3+ years of experience** across backend engineering, mobile systems, and applied AI. I started my career at **MasTec Communications**, working on telecom software across Java/Spring Boot backend systems and Android/mobile field applications. I later completed my **M.S. in Data Science at the University at Buffalo** and worked at **Anthem Nations** on Harmoney, a fintech payments platform with backend workflows and AI-assisted features.
 
----
-
-## What I Build
-
-- **Agentic AI Systems**: Human-in-the-loop approval workflows, MCP servers, LangChain agents, tool-calling pipelines, and LangSmith-instrumented eval frameworks.
-- **Backend Services & REST APIs**: FastAPI and Spring Boot services with JWT auth, rate limiting, idempotent request handling, audit logging, and production-grade reliability.
-- **Workflow Automation Platforms**: Approval state machines, event-driven orchestration, business process automation, and operational tracking systems.
-- **Cloud-Native Infrastructure**: Containerized deployments on AWS with Docker, Kubernetes, GitHub Actions CI/CD, Prometheus observability, and Grafana dashboards.
-- **Data Pipelines**: End-to-end ETL on AWS (S3, Lambda, Athena, PostgreSQL) with schema validation, query optimization, and monitoring.
+Today, I’m especially interested in building products where **mobile, backend, and AI come together** — with a strong focus on Android, Wear OS, reliability, performance, and practical AI integration.
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### [Financial Data MCP Server]
-MCP server exposing three portfolio reconciliation tools — `get_breaks`, `classify_break`, and `resolve_break` — enabling LangChain agents to detect and resolve position mismatches across custodian and book-of-record feeds. Includes a human-in-the-loop FastAPI approval workflow with audit logging and a LangSmith eval framework achieving **89% classification accuracy** across 250 labeled break scenarios. GitHub Actions CI gate blocks deploys on accuracy regression below 85%.
+### [Android AI Assistant](https://github.com/abheesh-03/android-ai-assistant)
+Native Android conversational AI app built with **Kotlin, Jetpack Compose, ViewModel, StateFlow, Room, Retrofit/OkHttp, FastAPI, and Claude**.
 
----
-
-### [Workflow Automation Backend Platform]
-Python/FastAPI backend supporting approval workflows, operational tracking, and business process automation with JWT auth, rate limiting, and PostgreSQL audit logging. Containerized on AWS with Kubernetes, GitHub Actions CI/CD, Prometheus, and Grafana dashboards for production observability.
-
----
-
-### [Asset Locator Platform]
-Java/Spring Boot centralized asset management platform built at MasTec for **200+ active field technicians**. Replaced manual tracking with inventory visibility, assignment workflows, and automated reporting. Resolved a critical N+1 query bottleneck using Redis caching and composite indexes — reducing p95 response time from **5–6s to under 400ms**.
+- Multi-turn conversation with bounded context
+- Room-backed persistence across app restarts
+- Lifecycle-aware state with ViewModel + StateFlow
+- Coroutine cancellation and duplicate-send protection
+- FastAPI backend with server-side AI credentials
 
 ---
 
-## Professional Impact
+### [Wearable AI Companion](https://github.com/abheesh-03/wearable-ai-companion)
+Wear OS AI assistant built around a **local-first / cloud-when-needed** architecture.
 
-| Metric | Context |
-|---|---|
-| **5–6s → under 400ms** | Redis caching + query optimization on production Asset Locator platform |
-| **~2 hrs → ~25 min** | Jenkins/Docker CI/CD pipeline automation at MasTec |
-| **200+ active users** | Asset Locator platform in production field operations |
-| **89% classification accuracy** | LangSmith eval framework on MCP reconciliation agent |
-| **65–70% reduction in analyst review effort** | Agent-driven break classification on 250-break evaluation set |
-| **3 defects caught pre-deploy** | Automated unit tests in early MasTec internship |
+- Native Wear OS input with RemoteInput
+- Local handling for time, date, help, and battery
+- Android `BatteryManager` behind a testable provider abstraction
+- General questions routed to Claude through FastAPI
+- Kotlin, Wear Compose, ViewModel, StateFlow, Retrofit, and OkHttp
 
 ---
 
-## Current Focus
+### [BugPredictor](https://github.com/abheesh-03/BugPredictor)
+AI-powered bug detection platform for VS Code and web.
 
-Targeting **Backend Engineer, Applied AI Engineer, and Software Engineer** roles, full-time, starting early 2026.
-
-Currently deepening work in agentic AI systems, MCP protocol implementation, LangSmith evaluation frameworks, and production workflow automation platforms.
+- Claude-based code analysis
+- PostgreSQL + pgvector retrieval memory
+- VS Code extension with CodeLens and diagnostics
+- JWT authentication, rate limiting, and GitHub PR analysis
+- FastAPI backend with evaluation and regression testing
 
 ---
 
-## Tech Stack
+### [SkyTracker PRO](https://github.com/abheesh-03/Flight-Tracker)
+Full-stack flight tracking application built with **Next.js, React, TypeScript, Leaflet, aviation APIs, and AWS Amplify**.
 
-**Languages**
+- Live flight status and route visualization
+- Multi-provider API integration and normalization
+- Airport-local time handling and weather context
+- Rule-based ETA / timing assistance
+- AWS-hosted deployment
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/sql-000000?style=for-the-badge&logo=postgresql&logoColor=white)
+---
 
-**Backend & AI**
+### [NYC Taxi Demand Project](https://github.com/abheesh-03/nyc-taxi-project)
+Data engineering and forecasting project built around NYC taxi demand using **AWS, Python, SQL, PostgreSQL, and time-series modeling**.
 
+---
+
+## 💼 Professional Experience
+
+### MasTec Communications Group
+**Software Engineer Intern → Software Engineer 1**
+
+Worked across telecom applications including backend systems and Android/mobile field workflows.
+
+- Java / Spring Boot / REST APIs / PostgreSQL
+- Android/mobile integration, synchronization, validation, and debugging
+- Performance tuning, Redis caching, and SQL optimization
+- Jenkins, Maven, Docker, Git, and CI/CD
+- Python and SQL automation for operational workflows
+
+### Anthem Nations
+**Applied AI Engineer Intern**
+
+Worked on **Harmoney**, a fintech payments platform.
+
+- Python / FastAPI / PostgreSQL backend workflows
+- Payment validation, approval states, and audit/history flows
+- React / TypeScript workflow interfaces
+- Claude-based structured AI assistance
+- Human-in-the-loop AI and retrieval-backed workflows
+
+---
+
+## 🧰 Tech Stack
+
+### Mobile
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+![Wear OS](https://img.shields.io/badge/Wear_OS-4285F4?style=for-the-badge&logo=wearos&logoColor=white)
+
+**Kotlin · Jetpack Compose · ViewModel · StateFlow · Coroutines · Room · Retrofit · OkHttp · Wear OS**
+
+### Backend
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangSmith](https://img.shields.io/badge/LangSmith-FF6B35?style=for-the-badge&logo=langchain&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP_Protocol-000000?style=for-the-badge&logo=anthropic&logoColor=white)
 
-RAG, prompt engineering, AI agents, function calling, LLM applications, human-in-the-loop workflows
+**Java · Spring Boot · Python · FastAPI · REST APIs · PostgreSQL · Redis · SQL**
 
-**Cloud & Infrastructure**
+### AI
+**Claude · OpenAI · RAG · pgvector · Structured Outputs · Human-in-the-Loop Workflows · AI Evaluation**
 
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232088FF.svg?style=for-the-badge&logo=github-actions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
+### Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/postgresql-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+**AWS · Docker · GitHub Actions · Jenkins · Git · Linux · CI/CD**
 
 ---
 
-## Certifications
+## 🎓 Education
 
-**Cloud & AI**
-- **AWS Certified Data Engineer, Associate** — Amazon Web Services
-- **AWS Certified Solutions Architect, Associate** — Amazon Web Services
-- **Building and Evaluating Advanced RAG** — DeepLearning.AI
-- **Databricks Lakehouse AI Fundamentals** — Databricks
+**University at Buffalo, SUNY**  
+M.S. Engineering Science – Data Science · **GPA 3.6/4.0**
+
+**Chaitanya Bharathi Institute of Technology**  
+B.E. Computer Science
 
 ---
 
-## Contact
+## 🎯 Current Focus
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sai-abheesh-annaiah)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abheesh20.a@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/abheesh-03)
+I’m currently focused on roles across:
+
+**Software Engineering · Android / Mobile Engineering · Backend Engineering · Applied AI / AI Engineering**
+
+I enjoy working on systems where product behavior, mobile constraints, backend reliability, and AI all meet.
+
+---
+
+## 📫 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/sai-abheesh-annaiah)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:abheesh20.a@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/abheesh-03)
